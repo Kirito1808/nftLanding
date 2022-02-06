@@ -1,0 +1,608 @@
+.section-2 {
+    height: 1300px;
+    padding: 0 180px 0 180px;
+    background: #111111;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);   
+
+    .mini-card {
+        width: 1543px;
+        height: 300px;
+        padding: 60px 686px 0 80px;
+        border-radius: 20px;
+        background: #fe513c;
+
+        div {
+
+            img {
+                margin-bottom: 26px;
+            }
+
+            h2 {
+                font-family: "Inter";
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 48px;
+                display: flex;
+                align-items: flex-end;
+                color: #111111;
+            }
+
+            h5 {
+                font-family: "Inter";
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 150%;
+                color: #111111;
+            }
+        }
+
+        .card-infa {
+            width: 229px;
+            height: 287px;
+            position: absolute;
+            margin: -300px 0 0 979px;
+            
+
+            .all-text {
+                width: 229px;
+                margin: -42px 0 0 -4px;
+                padding: 10px;
+                background: #111111;
+                border-radius: 0 0 10px 10px;
+                transform: rotate(5deg); 
+                
+                .infa__text-1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h6 {
+                        text-align: start;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        color: #FF8139;
+                        font-size: 8.61379px;
+                        line-height: 100%;
+                    }
+
+                    h5 {
+                        text-align: end;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 8.61379px;
+                        line-height: 100%;
+                        color: #777777;
+                    }
+                }
+
+                .infa__text-2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h6 {
+                        text-align: start;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 14.3563px;
+                        line-height: 100%;
+                        color: #EEEEEE;
+                    }
+
+                    img {
+                        margin-left: 70px;
+                        transform: rotate(5deg); 
+
+                    }
+
+                    h5 {
+                        text-align: end;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 8.61379px;
+                        line-height: 100%;
+                        color: #777777;
+                    }
+                }
+
+                .infa__text-3 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h6 {
+                        text-align: start;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 12.9207px;
+                        line-height: 100%;
+                        color: #999999;
+                    }
+
+                    h5 {
+                        text-align: end;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 12.9207px;
+                        line-height: 100%;
+                        text-align: right;
+                        color: #999999;                        
+                    }
+                }
+            }
+        }
+
+        .card-infa-2 {
+            width: 229px;
+            height: 287px;
+            position: absolute;
+            margin: -330px 0 0 801px;
+            
+
+            .all-text-2 {
+                width: 229px;
+                margin: -42px 0 0 21px;
+                padding: 10px;
+                background: #EEEEEE;
+                border-radius: 0 0 10px 10px;
+                transform: rotate(-5deg); 
+                
+                .infa__text-1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h6 {
+                        text-align: start;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        color: #FF8139;
+                        font-size: 8.61379px;
+                        line-height: 100%;
+                    }
+
+                    h5 {
+                        text-align: end;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 8.61379px;
+                        line-height: 100%;
+                        color: #777777;
+                    }
+                }
+
+                .infa__text-2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    
+                    h5 {
+                        text-align: start;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 11.3563px;
+                        line-height: 100%;
+                        color: #111111;                             
+                    }
+
+                    img {
+                        margin-left: 80px;
+                        transform: rotate(-5deg); 
+                    }
+
+                    h6 {
+                        text-align: end;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 14.3563px;
+                        line-height: 100%;
+                        color: #111111;                  
+                    }
+
+                }
+
+                .infa__text-3 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h6 {
+                        text-align: start;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 12.9207px;
+                        line-height: 100%;
+                        color: #999999;
+                    }
+
+                    h5 {
+                        text-align: end;
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 12.9207px;
+                        line-height: 100%;
+                        text-align: right;
+                        color: #999999;                        
+                    }
+                }
+            }
+        }
+    }
+
+    .socials {
+        margin: 130px 0 122px 110px;
+    }
+
+    .sec-2-text {
+        margin-bottom: 70px;
+
+        h1 {
+            font-family: "Inter";
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FFFFFF;
+            margin-bottom: 24px;
+        }
+
+        h4 {
+            font-family: "Inter";
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 150%;
+            color: #999999;
+        }
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        gap: 130px;
+        justify-content: center;
+
+        .card-1 {
+            width: 290px;
+            height: 400px;
+
+            .card__text {
+                width: 290px;
+                height: 122px;
+                padding: 24px;
+                margin-top: -10px;
+                background: #000000;
+                border-radius: 0 0 16px 16px;
+                
+                .infa__text-1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 12px;
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        color: #FF8139;
+                        font-size: 12px;
+                        line-height: 100%;
+                        text-transform: uppercase;                       
+                    }
+
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 100%;
+                        text-transform: uppercase;
+                        color: #777777;
+                    }
+                }
+
+                .infa__text-2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 12px;
+
+                    
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        color: #FFFFFF;                          
+                    }
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        color: #FFFFFF;    
+                    }
+
+                }
+
+                .infa__text-3 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 100%;
+                        color: #777777;
+                    }
+
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 100%;
+                        color: #777777;                
+                    }
+                }
+            }
+        }
+
+        .card-2 {
+            width: 290px;
+            height: 400px;
+
+            .card__text {
+                width: 290px;
+                height: 122px;
+                padding: 24px;
+                margin-top: -10px;
+                background: #000000;
+                border-radius: 0 0 16px 16px;
+                
+                .infa__text-1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 12px;
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        color: #FF8139;
+                        font-size: 12px;
+                        line-height: 100%;
+                        text-transform: uppercase;                       
+                    }
+
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 100%;
+                        text-transform: uppercase;
+                        color: #777777;
+                    }
+                }
+
+                .infa__text-2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 12px;
+
+                    
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        color: #FFFFFF;                          
+                    }
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        color: #FFFFFF;    
+                    }
+
+                }
+
+                .infa__text-3 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 100%;
+                        color: #777777;
+                    }
+
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 100%;
+                        color: #777777;                
+                    }
+                }
+            }
+        }
+
+        .card-3 {
+            width: 290px;
+            height: 400px;
+
+            .card__text {
+                width: 290px;
+                height: 122px;
+                padding: 24px;
+                margin-top: -10px;
+                background: #000000;
+                border-radius: 0 0 16px 16px;
+                
+                .infa__text-1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 12px;
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        color: #FF8139;
+                        font-size: 12px;
+                        line-height: 100%;
+                        text-transform: uppercase;                       
+                    }
+
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 100%;
+                        text-transform: uppercase;
+                        color: #777777;
+                    }
+                }
+
+                .infa__text-2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 12px;
+
+                    
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        color: #FFFFFF;                          
+                    }
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        color: #FFFFFF;    
+                    }
+
+                }
+
+                .infa__text-3 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 100%;
+                        color: #777777;
+                    }
+
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 100%;
+                        color: #777777;                
+                    }
+                }
+            }
+        }
+
+        .card-4 {
+            width: 290px;
+            height: 400px;
+
+            .card__text {
+                width: 290px;
+                height: 122px;
+                padding: 24px;
+                margin-top: -10px;
+                background: #000000;
+                border-radius: 0 0 16px 16px;
+                
+                .infa__text-1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 12px;
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        color: #FF8139;
+                        font-size: 12px;
+                        line-height: 100%;
+                        text-transform: uppercase;                       
+                    }
+
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 100%;
+                        text-transform: uppercase;
+                        color: #777777;
+                    }
+                }
+
+                .infa__text-2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 12px;
+
+                    
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        color: #FFFFFF;                          
+                    }
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 100%;
+                        color: #FFFFFF;    
+                    }
+
+                }
+
+                .infa__text-3 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    h6 {
+                        font-family: "Inter";
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 100%;
+                        color: #777777;
+                    }
+
+                    h5 {
+                        font-family: "Inter";
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 100%;
+                        color: #777777;                
+                    }
+                }
+            }
+        }
+    }
+}
